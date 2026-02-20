@@ -20,7 +20,7 @@ export class User {
 
     }
     getFullName(): string{
-        return `${this.firstname} ${this.lastname}`
+        return `trim(${this.firstname} ${this.lastname})`
 
     }
 }
