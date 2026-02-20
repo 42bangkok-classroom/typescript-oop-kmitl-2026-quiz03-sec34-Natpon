@@ -9,8 +9,8 @@ export class Warrior extends Character {
     this.health = health;
 
   }
-  getWeapon(weapon: string){
-    this.weapon = weapon;
+  getWeapon(){
+    this.weapon ;
   }
   receiveDamage(da: number): void {
     this.health -= da;
