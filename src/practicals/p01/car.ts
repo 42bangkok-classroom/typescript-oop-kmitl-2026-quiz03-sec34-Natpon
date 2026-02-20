@@ -2,16 +2,16 @@ export class Car {
     brand?: string ="";
     model?: string ="";
     start(){
-        return `${this.brand} ${this.model} is starting...`
+        console.log( `${this.brand} ${this.model} is starting...`);
     }
     accelerate(){
-        return `${this.brand} ${this.model} is accelerating...`
+        console.log(`${this.brand} ${this.model} is accelerating...`);
     }
     brake(){
-        return `${this.brand} ${this.model} is braking...`
+        console.log(`${this.brand} ${this.model} is braking...`);
     }
     stop(){
-        return `${this.brand} ${this.model} is stopping...`
+        console.log(`${this.brand} ${this.model} is stopping...`);
     }
 
 }
