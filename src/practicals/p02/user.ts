@@ -20,7 +20,11 @@ export class User {
 
     }
     getFullName(): string{
-        return `trim(${this.firstname} ${this.lastname})`
+        if(this.firstname === ""&&this.lastname===""){
+            return ""
+        }
+        return `${this.firstname} ${this.lastname}`
 
     }
 }
+ 
