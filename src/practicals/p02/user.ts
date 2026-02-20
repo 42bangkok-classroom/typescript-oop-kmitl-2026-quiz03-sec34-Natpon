@@ -15,8 +15,8 @@ export class User {
         return this.age = num;
 
     }
-    getAge(): string{
-        return `${this.age}`
+    getAge(): number{
+        return this.age;
 
     }
     getFullName(): string{
